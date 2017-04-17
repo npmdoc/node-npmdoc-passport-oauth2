@@ -56,6 +56,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.passport-oauth2.passport-oauth2">
+            function <span class="apidocSignatureSpan"></span>passport-oauth2
+            <span class="apidocSignatureSpan">(options, verify)</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.passport-oauth2.AuthorizationError">
             function <span class="apidocSignatureSpan">passport-oauth2.</span>AuthorizationError
             <span class="apidocSignatureSpan">(message, code, uri, status)</span>
@@ -68,6 +77,15 @@
             <a class="apidocElementLiA" href="#apidoc.element.passport-oauth2.InternalOAuthError">
             function <span class="apidocSignatureSpan">passport-oauth2.</span>InternalOAuthError
             <span class="apidocSignatureSpan">(message, err)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.passport-oauth2.InternalOAuthError.prototype.toString">
+            function <span class="apidocSignatureSpan">passport-oauth2.</span>InternalOAuthError.prototype.toString
+            <span class="apidocSignatureSpan">()</span>
             </a>
 
         </li>
@@ -101,6 +119,24 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.passport-oauth2.super_.prototype.authenticate">
+            function <span class="apidocSignatureSpan">passport-oauth2.</span>super_.prototype.authenticate
+            <span class="apidocSignatureSpan">(req, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.passport-oauth2.toString">
+            function <span class="apidocSignatureSpan">passport-oauth2.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">passport-oauth2.</span>InternalOAuthError.prototype</span>
 
         </li>
@@ -114,6 +150,19 @@
         <li>
 
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">passport-oauth2.</span>utils</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.passport-oauth2.AuthorizationError">module passport-oauth2.AuthorizationError</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.passport-oauth2.AuthorizationError.AuthorizationError">
+            function <span class="apidocSignatureSpan">passport-oauth2.</span>AuthorizationError
+            <span class="apidocSignatureSpan">(message, code, uri, status)</span>
+            </a>
 
         </li>
 
@@ -139,6 +188,32 @@
             <a class="apidocElementLiA" href="#apidoc.element.passport-oauth2.InternalOAuthError.prototype.toString">
             function <span class="apidocSignatureSpan">passport-oauth2.InternalOAuthError.prototype.</span>toString
             <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.passport-oauth2.InternalOAuthError.prototype.toString">module passport-oauth2.InternalOAuthError.prototype.toString</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.passport-oauth2.InternalOAuthError.prototype.toString.toString">
+            function <span class="apidocSignatureSpan">passport-oauth2.InternalOAuthError.prototype.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.passport-oauth2.TokenError">module passport-oauth2.TokenError</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.passport-oauth2.TokenError.TokenError">
+            function <span class="apidocSignatureSpan">passport-oauth2.</span>TokenError
+            <span class="apidocSignatureSpan">(message, code, uri, status)</span>
             </a>
 
         </li>
@@ -180,6 +255,32 @@
 
     </ol></li>
 
+    <li class="apidocModuleLi"><a href="#apidoc.module.passport-oauth2.super_.prototype.authenticate">module passport-oauth2.super_.prototype.authenticate</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.passport-oauth2.super_.prototype.authenticate.authenticate">
+            function <span class="apidocSignatureSpan">passport-oauth2.super_.prototype.</span>authenticate
+            <span class="apidocSignatureSpan">(req, options)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.passport-oauth2.toString">module passport-oauth2.toString</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.passport-oauth2.toString.toString">
+            function <span class="apidocSignatureSpan">passport-oauth2.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
     <li class="apidocModuleLi"><a href="#apidoc.module.passport-oauth2.utils">module passport-oauth2.utils</a><ol>
 
         <li>
@@ -206,6 +307,58 @@
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.passport-oauth2" id="apidoc.module.passport-oauth2">module passport-oauth2</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.passport-oauth2.passport-oauth2" id="apidoc.element.passport-oauth2.passport-oauth2">
+        function <span class="apidocSignatureSpan"></span>passport-oauth2
+        <span class="apidocSignatureSpan">(options, verify)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function OAuth2Strategy(options, verify) {
+  if (typeof options == 'function') {
+    verify = options;
+    options = undefined;
+  }
+  options = options || {};
+
+  if (!verify) { throw new TypeError('OAuth2Strategy requires a verify callback'); }
+  if (!options.authorizationURL) { throw new TypeError('OAuth2Strategy requires a authorizationURL option'); }
+  if (!options.tokenURL) { throw new TypeError('OAuth2Strategy requires a tokenURL option'); }
+  if (!options.clientID) { throw new TypeError('OAuth2Strategy requires a clientID option'); }
+
+  passport.Strategy.call(this);
+  this.name = 'oauth2';
+  this._verify = verify;
+
+  // NOTE: The _oauth2 property is considered "protected".  Subclasses are
+  //       allowed to use it when making protected resource requests to retrieve
+  //       the user profile.
+  this._oauth2 = new OAuth2(options.clientID,  options.clientSecret,
+      '', options.authorizationURL, options.tokenURL, options.customHeaders);
+
+  this._callbackURL = options.callbackURL;
+  this._scope = options.scope;
+  this._scopeSeparator = options.scopeSeparator || ' ';
+  this._key = options.sessionKey || ('oauth2:' + url.parse(options.authorizationURL).hostname);
+
+  if (options.store) {
+    this._stateStore = options.store;
+  } else {
+    if (options.state) {
+      this._stateStore = new SessionStateStore({ key: this._key });
+    } else {
+      this._stateStore = new NullStateStore();
+    }
+  }
+  this._trustProxy = options.proxy;
+  this._passReqToCallback = options.passReqToCallback;
+  this._skipUserProfile = (options.skipUserProfile === undefined) ? false : options.skipUserProfile;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 
     <h2>
@@ -250,6 +403,30 @@
   this.name = this.constructor.name;
   this.message = message;
   this.oauthError = err;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.passport-oauth2.InternalOAuthError.prototype.toString" id="apidoc.element.passport-oauth2.InternalOAuthError.prototype.toString">
+        function <span class="apidocSignatureSpan">passport-oauth2.</span>InternalOAuthError.prototype.toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">InternalOAuthError.prototype.toString = function () {
+  var m = this.name;
+  if (this.message) { m += ': ' + this.message; }
+  if (this.oauthError) {
+    if (this.oauthError instanceof Error) {
+      m = this.oauthError.toString();
+    } else if (this.oauthError.statusCode &amp;&amp; this.oauthError.data) {
+      m += ' (status: ' + this.oauthError.statusCode + ' data: ' + this.oauthError.data + ')';
+    }
+  }
+  return m;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -343,9 +520,73 @@
 
 
 
+    <h2>
+        <a href="#apidoc.element.passport-oauth2.super_.prototype.authenticate" id="apidoc.element.passport-oauth2.super_.prototype.authenticate">
+        function <span class="apidocSignatureSpan">passport-oauth2.</span>super_.prototype.authenticate
+        <span class="apidocSignatureSpan">(req, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">super_.prototype.authenticate = function (req, options) {
+  throw new Error('Strategy#authenticate must be overridden by subclass');
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
 
 
 
+    <h2>
+        <a href="#apidoc.element.passport-oauth2.toString" id="apidoc.element.passport-oauth2.toString">
+        function <span class="apidocSignatureSpan">passport-oauth2.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return text;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.passport-oauth2.AuthorizationError" id="apidoc.module.passport-oauth2.AuthorizationError">module passport-oauth2.AuthorizationError</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.passport-oauth2.AuthorizationError.AuthorizationError" id="apidoc.element.passport-oauth2.AuthorizationError.AuthorizationError">
+        function <span class="apidocSignatureSpan">passport-oauth2.</span>AuthorizationError
+        <span class="apidocSignatureSpan">(message, code, uri, status)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function AuthorizationError(message, code, uri, status) {
+  if (!status) {
+    switch (code) {
+      case 'access_denied': status = 403; break;
+      case 'server_error': status = 502; break;
+      case 'temporarily_unavailable': status = 503; break;
+    }
+  }
+
+  Error.call(this);
+  Error.captureStackTrace(this, this.constructor);
+  this.name = this.constructor.name;
+  this.message = message;
+  this.code = code || 'server_error';
+  this.uri = uri;
+  this.status = status || 500;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
 
 
 </div>
@@ -396,6 +637,50 @@
     }
   }
   return m;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.passport-oauth2.InternalOAuthError.prototype.toString" id="apidoc.module.passport-oauth2.InternalOAuthError.prototype.toString">module passport-oauth2.InternalOAuthError.prototype.toString</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.passport-oauth2.InternalOAuthError.prototype.toString.toString" id="apidoc.element.passport-oauth2.InternalOAuthError.prototype.toString.toString">
+        function <span class="apidocSignatureSpan">passport-oauth2.InternalOAuthError.prototype.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.passport-oauth2.TokenError" id="apidoc.module.passport-oauth2.TokenError">module passport-oauth2.TokenError</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.passport-oauth2.TokenError.TokenError" id="apidoc.element.passport-oauth2.TokenError.TokenError">
+        function <span class="apidocSignatureSpan">passport-oauth2.</span>TokenError
+        <span class="apidocSignatureSpan">(message, code, uri, status)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function TokenError(message, code, uri, status) {
+  Error.call(this);
+  Error.captureStackTrace(this, this.constructor);
+  this.name = this.constructor.name;
+  this.message = message;
+  this.code = code || 'invalid_request';
+  this.uri = uri;
+  this.status = status || 500;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -467,6 +752,60 @@ application:
 ```js
 app.get('/auth/example',
 ...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.passport-oauth2.super_.prototype.authenticate" id="apidoc.module.passport-oauth2.super_.prototype.authenticate">module passport-oauth2.super_.prototype.authenticate</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.passport-oauth2.super_.prototype.authenticate.authenticate" id="apidoc.element.passport-oauth2.super_.prototype.authenticate.authenticate">
+        function <span class="apidocSignatureSpan">passport-oauth2.super_.prototype.</span>authenticate
+        <span class="apidocSignatureSpan">(req, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">authenticate = function (req, options) {
+  throw new Error('Strategy#authenticate must be overridden by subclass');
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    });
+  }
+));
+```
+
+#### Authenticate Requests
+
+Use `passport.<span class="apidocCodeKeywordSpan">authenticate</span>()`, specifying the `'oauth2'` strategy, to
+authenticate requests.
+
+For example, as route middleware in an [Express](http://expressjs.com/)
+application:
+
+```js
+app.get('/auth/example',
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.passport-oauth2.toString" id="apidoc.module.passport-oauth2.toString">module passport-oauth2.toString</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.passport-oauth2.toString.toString" id="apidoc.element.passport-oauth2.toString.toString">
+        function <span class="apidocSignatureSpan">passport-oauth2.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
