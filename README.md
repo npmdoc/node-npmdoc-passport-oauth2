@@ -1,4 +1,7 @@
-# api documentation for  [passport-oauth2 (v1.4.0)](https://github.com/jaredhanson/passport-oauth2#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-passport-oauth2.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-passport-oauth2) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-passport-oauth2.svg)](https://travis-ci.org/npmdoc/node-npmdoc-passport-oauth2)
+# npmdoc-passport-oauth2
+
+#### basic api documentation for  [passport-oauth2 (v1.4.0)](https://github.com/jaredhanson/passport-oauth2#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-passport-oauth2.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-passport-oauth2) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-passport-oauth2.svg)](https://travis-ci.org/npmdoc/node-npmdoc-passport-oauth2)
+
 #### OAuth 2.0 authentication strategy for Passport.
 
 [![NPM](https://nodei.co/npm/passport-oauth2.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/passport-oauth2)
@@ -80,7 +83,8 @@
     "scripts": {
         "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js"
     },
-    "version": "1.4.0"
+    "version": "1.4.0",
+    "bin": {}
 }
 ```
 

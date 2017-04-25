@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "passport-oauth2",
-    "description": "api documentation for [passport-oauth2 (v1.4.0)](https://github.com/jaredhanson/passport-oauth2#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-passport-oauth2.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-passport-oauth2) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-passport-oauth2.svg)](https://travis-ci.org/npmdoc/node-npmdoc-passport-oauth2)",
+    "description": "#### basic api documentation for  [passport-oauth2 (v1.4.0)](https://github.com/jaredhanson/passport-oauth2#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-passport-oauth2.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-passport-oauth2) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-passport-oauth2.svg)](https://travis-ci.org/npmdoc/node-npmdoc-passport-oauth2)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "passport-oauth2": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.2"
+    "version": "2017.4.25"
 }
